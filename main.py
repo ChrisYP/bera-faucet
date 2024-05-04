@@ -66,6 +66,6 @@ def main(workers, proxy, user_token):
 
 if __name__ == '__main__':
     main(workers=os.cpu_count(),  # 线程数
-         proxy="代理",  # 注册地址 http://b.nxw.so/34eRo8 便宜.
+         proxy="代理",  # 注册地址 http://b.nxw.so/34eRo8 便宜. 格式为 账号:密码@ip:端口
          user_token="Nocaptcha打码token"  # 注册地址 http://t.nxw.so/7t8Ie   有测试点，也有包月服务，包月可以无限跑。
          )
