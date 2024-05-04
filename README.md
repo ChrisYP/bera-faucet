@@ -6,10 +6,13 @@ A simple faucet for the BERA testnet.
 
 ```bash
 git clone https://github.com/ChrisYP/bera-faucet.git
-cd bera_faucet
+```
+```bash
+cd bera-faucet
+````
+```bash
 pip install -r requirements.txt
 ```
-
 ## Usage
 
 ```bash
